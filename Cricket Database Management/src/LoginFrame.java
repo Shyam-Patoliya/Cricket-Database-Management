@@ -50,7 +50,7 @@ public class LoginFrame extends JFrame implements ActionListener {
             // For simplicity, let's assume username: admin, password: admin
             if (username.equals("Shyam") && password.equals("463922")) {
                 // Open the main frame if login successful
-                HospitalManagementGUI mainFrame = new HospitalManagementGUI();
+                CricketDatabaseGUI mainFrame = new CricketDatabaseGUI();
                 mainFrame.setVisible(true);
                 dispose(); // Close the login frame
             } else {
